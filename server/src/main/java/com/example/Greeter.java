@@ -4,7 +4,7 @@ package com.example;
 public class Greeter {
 
   
-  public Greete() {
+  public Greeter() {
 
   }
 /**
@@ -12,7 +12,7 @@ public class Greeter {
 *@param someone name of a person
 *
 */
-  public final Strin greet(final String someone) {
+  public final String greet(final String someone) {
     return String.format("Hello babacar, %s!", someone);
   }
 }
